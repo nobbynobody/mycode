@@ -28,6 +28,7 @@ print("Hello! This program will make you a *.xls file")
 
 while(True):
     mylistdict.append(get_ip_data())
+    print(mylistdict)
     keep_going = input("\nWould you like to add another value? Enter to continue, or \
     enter 'q' to quit: ")
     if (keep_going.lower() == 'q'):
