@@ -33,6 +33,9 @@ while(True):
     enter 'q' to quit: ")
     if (keep_going.lower() == 'q'):
         break
+sheet = pyexcel.get_sheet(records=mylistdict)
+#sheet = sheet.project(["IP", "driver", "Val1", "Val2"])
+print(sheet)
 
 filename = input("\nWhat is the name of the *.xls file? ")
 
